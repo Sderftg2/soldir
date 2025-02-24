@@ -9,8 +9,8 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7713842378:AAFCBpFw9ECVuWUf7KJDHL_lfbO7dN7bGZ0'  # Replace with your bot token
-ADMIN_USER_ID = 5477802914
+TELEGRAM_BOT_TOKEN = '7708846625:AAG-0MmKDbkG91aUUc9r7VVYUxAgF1we49c'  # Replace with your bot token
+ADMIN_USER_ID = 5142603617
 MONGO_URI = "mongodb+srv://rmr31098:ranbal123@cluster0.pcbr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "rmr31098"
 COLLECTION_NAME = "users"
